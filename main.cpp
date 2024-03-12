@@ -1,6 +1,6 @@
 #include "header.h"
 #include <iostream>
-#include <iomanip> //для отступов в таблице
+#include <iomanip> //РґР»СЏ РѕС‚СЃС‚СѓРїРѕРІ РІ С‚Р°Р±Р»РёС†Рµ
 
 using namespace std;
 
@@ -13,8 +13,8 @@ int main() {
 
 	Matrix m1(m, n);
 	Matrix m2(m, n);
-	Matrix m3(m, n); //Для демонстрации операции +=
-	Matrix m4(m, n); //Для демонастрации операции -=
+	Matrix m3(m, n); //Р”Р»СЏ РґРµРјРѕРЅСЃС‚СЂР°С†РёРё РѕРїРµСЂР°С†РёРё +=
+	Matrix m4(m, n); //Р”Р»СЏ РґРµРјРѕРЅР°СЃС‚СЂР°С†РёРё РѕРїРµСЂР°С†РёРё -=
 
 	m1.fill();
 	m2.fill();
